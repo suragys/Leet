@@ -1,4 +1,4 @@
-/*
+package com.leetcode.easy;/*
 Given a positive integer, output its complement number. The complement strategy is to flip the bits of its binary representation.
 
 Note:
@@ -14,7 +14,7 @@ Output: 0
 Explanation: The binary representation of 1 is 1 (no leading zero bits), and its complement is 0. So you need to output 0.
 */
 
-public class Solution {
+public class NumberComplement476 {
     public int findComplement(int num) {
         // int comp = 0;
         // int i = 0;

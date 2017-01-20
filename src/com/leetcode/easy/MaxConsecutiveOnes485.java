@@ -1,3 +1,5 @@
+package com.leetcode.easy;
+
 /*
 Given a binary array, find the maximum number of consecutive 1s in this array.
 
@@ -11,7 +13,7 @@ Note:
 The input array will only contain 0 and 1.
 The length of input array is a positive integer and will not exceed 10,000
 */
-public class Solution {
+public class MaxConsecutiveOnes485 {
     public int findMaxConsecutiveOnes(int[] nums) {
         int max = 0;
         int count = 0;
