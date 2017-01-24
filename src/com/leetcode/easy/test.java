@@ -36,6 +36,11 @@ public class test {
             System.out.println(i);
         }
 
+        int x1 = 11;
+        Integer a = new Integer(x1);
+        changeInteger(a);
+        System.out.println(a);
+
     }
 
     private static void changeL(List<Integer> l) {
@@ -60,5 +65,13 @@ public class test {
     private static String changeX(String x) {
         x ="100";
         return x;
+    }
+
+    private static void changeInteger(Integer a) {
+//        a = 1111;
+
+            a = new Integer(22);
+
+        return  ;
     }
 }
