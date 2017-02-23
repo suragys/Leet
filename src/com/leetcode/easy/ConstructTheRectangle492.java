@@ -2,6 +2,8 @@ package com.leetcode.easy;
 
 import java.util.ArrayList;
 
+import static org.junit.Assert.assertTrue;
+
 /**
  * Created by surag on 1/25/17.
  * <p>
@@ -25,7 +27,12 @@ import java.util.ArrayList;
 public class ConstructTheRectangle492 {
 
     // TODO add test cases.
-    
+    @org.junit.Test
+    public void test1() throws Exception {
+        int[] res = new ConstructTheRectangle492().constructRectangle(4);
+        int[] ans = new int[] {2,2};
+        assertTrue(true);
+    }
     public int[] constructRectangle(int area) {
 
         // return bruteForce(area);

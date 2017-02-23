@@ -22,4 +22,14 @@ public class MinimumMovestoEqualArrayElements453Test {
         assertTrue(result == ans);
     }
 
+    @org.junit.Test
+    public void minMoves3() throws Exception {
+        int[] a = {1,2,3};
+        int ans = 3;
+        int result = new MinimumMovestoEqualArrayElements453().minMoves(a);
+        assertTrue(result == ans);
+    }
+
+
+
 }
