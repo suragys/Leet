@@ -56,6 +56,6 @@ public class NextGreaterElementI496 {
     }
 
     public static void main(String[] args) {
-        NextGreaterElementI496 x = new NextGreaterElementI496();
+        System.out.println(-1024 == -1024);
     }
 }
